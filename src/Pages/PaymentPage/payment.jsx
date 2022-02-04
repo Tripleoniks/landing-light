@@ -15,7 +15,7 @@ import { ReactComponent as PaypalLogo} from "../../asset/Images/PayPal.svg"
 const PaymentPage = () => {
     return(
        <div className='payment-page'>
-        <hr />
+        <div className="line"></div>
         <div className="payment-page-row">
             <div className="text">
             <h4>Payment Information</h4>
@@ -29,9 +29,9 @@ const PaymentPage = () => {
             </div>
         </div>
         <PaymentInfo />
-        <hr />
+        <div className="line"></div>
         <PaymentBrief/>
-        <hr />
+        <div className="line"></div>
         <PaymentConfirmation/>
        </div>
     );
